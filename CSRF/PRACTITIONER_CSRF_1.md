@@ -10,8 +10,8 @@ After reading,the first thing came in my mind is SameSite cookies as they also h
 But as i know LAX cookie can prevent attack upto the POST method so i decided to change the method of request.
 
 1-At first i get log in into the lab using the given credentials as given below:
-# Username-wiener
-# Password-peter
+**Username-wiener**
+**Password-peter**
 
 When i get enter using the given credentials i get the option feild to update email so i just enter a testing email and capure the request at **Burp-Suite Professional** 
 
