@@ -3,4 +3,17 @@
 Date:-9 January 2025
 Level:-Practitioner
 
-I am here to solve CSRF lab,as we have said 
+I am here to solve CSRF lab,as we have said in the description Token is not tied to user session
+therefore we have to seek the parameter which change it values as the new session introducede.
+
+We have provided the two credentials given below are:-
+
+# Username:Password
+  wiener:peter
+  carlos:montoya
+
+At first,i log in to the account using credential  wiener:peter and get a dasboard to update my email,i just enter some mail and change it.
+
+Then i write the mail for update and capture the request on **Burp Suite Professional** and send the request to repeater.
+
+
