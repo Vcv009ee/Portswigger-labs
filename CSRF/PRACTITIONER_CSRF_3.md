@@ -8,9 +8,9 @@ therefore we have to seek the parameter which change it values as the new sessio
 
 We have provided the two credentials given below are:-
 
-# Username:Password
-  wiener:peter
-  carlos:montoya
+**Username:Password**
+# wiener:peter
+# carlos:montoya
 
 At first,i log in to the account using credential  wiener:peter and get a dasboard to update my email,i just enter some mail and change it.
 
