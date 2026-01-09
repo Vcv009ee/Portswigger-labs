@@ -15,7 +15,7 @@ But as i know LAX cookie can prevent attack upto the POST method so i decided to
 
 When i get enter using the given credentials i get the option feild to update email so i just enter a testing email and capure the request at **Burp-Suite Professional** 
 
-# I send the request to Repeater and see the **POST** method.
+I send the request to Repeater and see the **POST** method.
 
 Then i saw the values of the feilds such as [Cookie Value,Email value and Csrf token value]
 
