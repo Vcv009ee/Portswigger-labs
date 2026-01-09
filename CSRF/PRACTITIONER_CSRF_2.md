@@ -30,7 +30,6 @@ The Html code generated is given below:-
   </body>
 </html>
 
-
 After recieving the lab details i copied it and go back to lab dasboard wher i get the **exploit server**.
 
 # I simply put the code in the html feild and store it to website server.
@@ -51,7 +50,6 @@ The modified code is shown below:-
     </script>
   </body>
 </html>
-
 
 # Boom! we finally exploit the victim server and solbved the lab.
 
