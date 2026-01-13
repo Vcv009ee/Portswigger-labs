@@ -10,10 +10,12 @@ At first we were provided the credential as
 -Username:wiener
 -Password:peter
 
-# At first i get login into the account using the given credentials.
+**At first i get login into the account using the given credentials**
+
 Then, there is option of updating the email in which i enter email named **test11@gmail.com**
 
-# I capture the request at Burp-Proxy and send it to repeater.
+**I capture the request at Burp-Proxy and send it to repeater**
+
  Then, i changed the email and send it and it shows **302-Found**
 
 I get to discover that we can change the email easily so i select the particular
@@ -21,6 +23,7 @@ request of change/email to **Engagement tool** then select **CSRF PoC generator*
 
 #I copy the HTML content as shown below:-
 
+```html
 <html>
 <body>
   <form action="https://0a3500a604127aaa801e26a800ab004b.web-security-academy.net/my-account/change-email" method="POST">
