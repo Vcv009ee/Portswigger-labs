@@ -6,6 +6,7 @@ Level:- Practitioner
 Here i am solving the where Csrf is duplicated a cookie means **there are two csrf token in the server** because a minimum unit of 2 is needed for duplication.
 
 At first,we are provided the credentials given below are:-
+
 #Username:Password
 
 wiener:peter
@@ -25,6 +26,7 @@ Then I created a Html field by **CSRF Poc Generator** but it is giving us the **
 
 i Capture the request and edit my html feild as shown below:-
 
+```html
 <html>
   <body>
     <form action="https://0a4c00fb036b0ab381038e0a0032001c.web-security-academy.net/my-account/change-email" method="POST">
@@ -38,8 +40,11 @@ i Capture the request and edit my html feild as shown below:-
 </html>
 
 I added different-different header like
+
 -img src
+
 -SameSite
+
 -onerror
 
 Here
