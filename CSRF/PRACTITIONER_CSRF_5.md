@@ -1,6 +1,6 @@
 ## Detailed Writeup of Csrf Practitioner Lab(**CSRF where token is duplicated in cookie**)
 
-Date:- 18 January 2026
+Date:- 17 January 2026
 
 Level:- Practitioner
 
