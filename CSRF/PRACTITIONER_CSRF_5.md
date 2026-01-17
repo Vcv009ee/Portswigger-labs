@@ -10,7 +10,7 @@ At first,we are provided the credentials given below are:-
 
 **Username**:-wiener
 
-**Password**:peter
+**Password**:-peter
 
 At first, i get logged in to my account dashboard using the credentiasl given to us.Then i saw a email update feild in which i enter the test email and capture the request ton **Burp Suite Professional** and then i send the request to **Burp Repeater**.
 
