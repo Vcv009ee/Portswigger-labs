@@ -1,13 +1,13 @@
 ## Detailed Writeup of Csrf Practitioner Lab(**SameSite Lax bypass via method override**)
 
-Date:- 18 January 2026 
+Date:- 18 January 2026
+
 Level:- Practitioner
 
 Here,i am doing the lab of Method Overriding inn which i am given with the credentials given below are:-
 
-#Username:-wiener
-
-#Password:-peter
+**Username**:-wiener
+**Password**:-peter
 
 I just enter the credials and login as a user using the following credentials,theni saw a email updater so i enter the test email capture the request at **Burp Suite** and send the requerst to repeater.
 
@@ -17,6 +17,7 @@ When i check it is showing **method not allowed** then i changed the request fro
 
 #Initial Code
 
+```html
 <html>
   <body>
     <form action="https://0a42001404c9b77380c4442f0019001a.web-security-academy.net/my-account/change-email" method="POST">
