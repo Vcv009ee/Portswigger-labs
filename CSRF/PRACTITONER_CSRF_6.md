@@ -50,7 +50,7 @@ Here,i included one extra line ` <input type="hidden" name="_method" value="POST
 
 I simply send the modified code to **Exploit server** by changing the email id and Boom! i just solved the lab.
 
-**Key-Learning**:-Lax can be bypassed if an application allows HTTP method override.
+**Key-Learning**:-Lax can be bypassed if an application allows HTTP method override. 
 
 
 
