@@ -19,7 +19,7 @@ We have provided the credentials given below:-
 
   I tried to modify the email and its passes the request,then i get to know about the email modification vunerablity.Later i change the **csrfKey** and **csrf token** which redirects the result to invalid csrf token.
 
-  By this i get to know that we cannot skip these two tokens,then i tried to modify session cookie and it passes the request with *302-Found*.
+  By this i get to know that we cannot skip these two tokens,then i tried to modify session cookie and it passes the request with **302-Found**.
 
   Later after getting lost of combination i get to know that the web server is validating **csrfKey** with **csrf token** and the vunerablity.
   So i tried to enter anathor combination of csrfKey an dcsrf token from the anathor account.
