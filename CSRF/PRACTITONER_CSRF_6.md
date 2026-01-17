@@ -1,5 +1,6 @@
 ## Detailed Writeup of Csrf Practitioner Lab(**SameSite Lax bypass via method override**)
 
+
 Date:- 18 January 2026
 
 Level:- Practitioner
